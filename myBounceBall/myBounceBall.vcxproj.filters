@@ -18,7 +18,13 @@
     <ClCompile Include="src\ofApp.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\BallCreater.cpp">
+    <ClCompile Include="src\Object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RectangleBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectCreater.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +35,13 @@
     <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\BallCreater.h">
+    <ClInclude Include="src\Object.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RectangleBar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectCreater.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

@@ -101,14 +101,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ball.cpp" />
-    <ClCompile Include="src\BallCreater.cpp" />
+    <ClCompile Include="src\ObjectCreater.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Object.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
+    <ClCompile Include="src\RectangleBar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Ball.h" />
-    <ClInclude Include="src\BallCreater.h" />
+    <ClInclude Include="src\ObjectCreater.h" />
+    <ClInclude Include="src\Object.h" />
     <ClInclude Include="src\ofApp.h" />
+    <ClInclude Include="src\RectangleBar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

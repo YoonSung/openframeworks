@@ -51,6 +51,8 @@ void RectangleBar::moveRight()
 }
 
 void RectangleBar::display()
-{	
-	ofRect(x, y, m_width, m_height);
+{
+	ofSetColor(0,0,0);
+	ofRect(x, y, m_width, m_height);	
+	ofSetColor(255, 255, 255);	
 }

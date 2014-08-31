@@ -19,7 +19,7 @@ void ObjectCreater::threadedFunction()
 		addBall(id);
 		++id;
 		
-		Sleep(2000);
+		Sleep(500);
 
 		//delete process
 		deleteObjectByLocation();
@@ -38,7 +38,7 @@ void ObjectCreater::addBall(int id)
 	newBall->setup(
 			ofRandom(ofGetWidth()),
 			//ofRandom(ofGetHeight()),
-			-500,
+			-100,
 			ofRandom(30,70), 
 			id,
 			SPRING, 

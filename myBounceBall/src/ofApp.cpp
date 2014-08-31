@@ -27,8 +27,6 @@ void ofApp::draw(){
 
 	vector<Object*> objects = objectCreater.getObjectList();
 	for(int i=0;i<objects.size();i++) {
-		ofColor(255,255,255,100);
-		
 		objects[i]->display();
 	}
 }

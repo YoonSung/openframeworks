@@ -9,7 +9,6 @@ public:
 
 public:
 	virtual void setup(float xin, float yin, float din, int idin, float springin, float graivityin, float frictionin);
-		
 	virtual void move();
 	virtual void display();
 	virtual bool isOutOfScreen();
@@ -20,7 +19,7 @@ public:
 	float vx;
 	float vy;
 	int id;
-		
+
 	float spring;
 	float gravity;
 	float friction;
@@ -29,5 +28,7 @@ public:
 	float height;
 	
 	bool m_isOutOfScreen;
-};
 
+private:
+	ofColor color;
+};

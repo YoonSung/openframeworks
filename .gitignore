@@ -71,6 +71,7 @@ xcuserdata
 *.pdb
 *.ilk
 *.aps
+*.exe
 ipch/
 
 

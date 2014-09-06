@@ -28,7 +28,5 @@ public:
 	float height;
 	
 	bool m_isOutOfScreen;
-
-private:
 	ofColor color;
 };

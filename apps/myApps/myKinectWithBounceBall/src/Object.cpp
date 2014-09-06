@@ -63,6 +63,7 @@ void Object::move()
 
 void Object::display()
 {
+	ofSetColor(color);
 	ofCircle(x, y, diameter/2);
 }
 

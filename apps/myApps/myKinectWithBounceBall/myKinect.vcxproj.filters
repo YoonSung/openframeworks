@@ -10,9 +10,6 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\testApp.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="src\Ball.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -418,9 +415,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\addons\ofxOpenNI\ofxOpenNI-master\include\openni\Win32\XnPlatformWin32.h">
       <Filter>ofxOpenNI\include\openni</Filter>
-    </ClInclude>
-    <ClInclude Include="src\testApp.h">
-      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\Ball.h">
       <Filter>src</Filter>

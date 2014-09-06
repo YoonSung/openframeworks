@@ -99,7 +99,6 @@
     <ClCompile Include="src\ObjectCreater.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\RectangleBar.cpp" />
-    <ClCompile Include="src\testApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\addons\ofxOpenNI\ofxOpenNI-master\include\nite\XnCommon.h" />
@@ -230,7 +229,6 @@
     <ClInclude Include="src\ObjectCreater.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\RectangleBar.h" />
-    <ClInclude Include="src\testApp.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">

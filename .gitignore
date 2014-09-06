@@ -13,11 +13,20 @@ libs/openFrameworksCompiled/lib/*/*
 # rule to avoid non-official addons going into git
 # see addons/.gitignore
 addons/*
+examples/*
+export/*
+projectGenerator/*
+scripts/*
+libs/*
+docs/*
+other/*
+CHANGELOG.md
+INSTALL.md
+LICENSE.md
 
 
 # rule to avoid non-official apps going into git
 # see apps/.gitignore
-apps/*
 
 
 # also, see examples/.gitignore
